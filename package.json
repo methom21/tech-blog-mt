@@ -8,5 +8,23 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.5"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "tech-blog-mt",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/methom21/tech-blog-mt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/methom21/tech-blog-mt/issues"
+  },
+  "homepage": "https://github.com/methom21/tech-blog-mt#readme",
+  "description": ""
 }
