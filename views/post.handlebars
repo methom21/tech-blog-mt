@@ -1,8 +1,14 @@
-{{#each posts }}
+
 <div class="text-center">
   <h2>{{name}}</h2>
   <p>{{{get_emoji}}}</p>
   <p>{{description}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
 </div>
-{{/each}}
+  <label for="story">new comment:</label>
+<button>submit comment</button>
+<textarea id="story" name="story"
+          rows="5" cols="33" placeholder="leave a comment...">
+
+</textarea>
+{{#each comment}}
